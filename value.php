@@ -1,5 +1,6 @@
 <?php
-function addItemToArray($array, $item) {
+function addItemToArray($array, $item)
+{
     $newArray = $array;
     $newArray[] = $item;
 
@@ -8,7 +9,8 @@ function addItemToArray($array, $item) {
 
 print_r(addItemToArray(['frikandel', '14'], 'test1'));
 
-function addItemToArray2($array, $item) {
+function addItemToArray2($array, $item)
+{
     $array[] = $item;
 
     return $array;
